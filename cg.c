@@ -8,7 +8,7 @@ int main() {
     initgraph(&gd, &gm, "");
 
     // Draw a rectangle
-    rectangle(100, 100, 300, 200); // Parameters: (left, top, right, bottom)
+    rectangle(100, 10, 300, 200); // Parameters: (left, top, right, bottom)
 
     // Draw a circle
     circle(400, 150, 50); // Parameters: (center_x, center_y, radius)
